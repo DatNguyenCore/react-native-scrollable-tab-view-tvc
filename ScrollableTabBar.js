@@ -225,8 +225,9 @@ const styles = StyleSheet.create({
     height: 49,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingLeft: 20,
-    paddingRight: 20,
+    paddingLeft: 10,
+    paddingRight: 10,
+    minWidth: 100,
   },
   container: {
     height: 50,
