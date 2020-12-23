@@ -226,7 +226,7 @@ function renderPaddinhTab(){
   }
 
   if(WINDOW_WIDTH > 350) {
-    return 15;
+    return 8;
   }
 
   return 5;
