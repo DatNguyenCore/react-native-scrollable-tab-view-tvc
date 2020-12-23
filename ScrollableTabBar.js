@@ -229,7 +229,7 @@ function renderPaddinhTab(){
     return 8;
   }
 
-  return 5;
+  return 1;
 }
 
 const styles = StyleSheet.create({
