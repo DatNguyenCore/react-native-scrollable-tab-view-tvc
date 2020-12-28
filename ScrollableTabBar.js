@@ -239,7 +239,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingLeft: renderPaddinhTab(),
     paddingRight: renderPaddinhTab(),
-    minWidth: 100,
+    minWidth: 110,
   },
   container: {
     height: 50,
