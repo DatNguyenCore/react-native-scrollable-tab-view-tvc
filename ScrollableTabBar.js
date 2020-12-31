@@ -221,7 +221,6 @@ const ScrollableTabBar = createReactClass({
 module.exports = ScrollableTabBar;
 
 function renderPaddinhTab(){
-  console.log('WINDOW_WIDTH', WINDOW_WIDTH)
   if(WINDOW_WIDTH > 400) {
     return 20;
   }
