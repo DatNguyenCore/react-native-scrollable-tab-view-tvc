@@ -221,8 +221,9 @@ const ScrollableTabBar = createReactClass({
 module.exports = ScrollableTabBar;
 
 function renderPaddinhTab(){
+  console.log('WINDOW_WIDTH', WINDOW_WIDTH)
   if(WINDOW_WIDTH > 400) {
-    return 20;
+    return 12;
   }
 
   if(WINDOW_WIDTH > 350) {
@@ -239,7 +240,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingLeft: renderPaddinhTab(),
     paddingRight: renderPaddinhTab(),
-    minWidth: 120,
+    minWidth: 125,
   },
   container: {
     height: 50,
